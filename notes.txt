@@ -1,0 +1,30 @@
+domain é utillizado para colocar o produto em análise/desenvolvimento no mercado
+por exemplo, o estudante terá seus dados inseridos, por isso ele será analisado
+
+test é o pacote para testar as classes
+
+quando criando um projeto pra empresa, o método padrão é br.nomeDaEmpresa.pacote
+exemplo: br.fiap.exercicio7
+
+===========================
+
+possivel passar os atributos de dentro de um objeto para outro por referência
+ex:
+carro1.nome = mustang
+carro1.ano = 1978
+carro2 = carro1;
+
+sout(carro2)
+resulta em
+mustang
+1978
+
+isso só é possível com objetos na mesma linha de herança
+
+===========================
+
+Caso seu método tenha mais que 3 argumentos, é provável que, vista do ponto de vista das boas práticas,
+seu método esteja sobrecarregado de funções, e é inteligente a função dele seja dividida
+
+utilizando o return sem valor, ex: return;
+o laço em que ele se encontra é quebrado, e o método é finalizado
