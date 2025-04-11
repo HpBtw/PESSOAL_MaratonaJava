@@ -28,3 +28,20 @@ seu método esteja sobrecarregado de funções, e é inteligente a função dele
 
 utilizando o return sem valor, ex: return;
 o laço em que ele se encontra é quebrado, e o método é finalizado
+
+===========================
+
+o this.var vai se referenciar à variável pertencente unicamente aquela variável instanciada
+ex:
+estudante1.nome = luciano
+estudante2.nome = maru
+
+estudante1.print(this.nome)
+resulta em
+luciano
+
+estudante2.print(this.nome)
+resulta em
+maru
+
+=============================
