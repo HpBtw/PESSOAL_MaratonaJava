@@ -1,6 +1,6 @@
-package sobrecargametodo.test;
+package sobrecargaMetodo.test;
 
-import sobrecargametodo.domain.Desenho;
+import sobrecargaMetodo.domain.Desenho;
 
 public class MainDesenho {
     public static void main(String[] args) {

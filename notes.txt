@@ -45,3 +45,11 @@ resulta em
 maru
 
 =============================
+
+quando um objeto é instanciado, cria-se o objeto (new) e o seu construtor é ativado
+antes de qualquer outro método
+Obj obj = new Obj("nomeDoObjeto");
+inicia-se o builder
+
+é possivel fazer uma sobrecarga de builders, mais informações anotadas em 
+maratona-java/src/construtores/domain/ObjetoGenerico
