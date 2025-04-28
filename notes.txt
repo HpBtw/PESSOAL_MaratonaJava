@@ -53,3 +53,26 @@ inicia-se o builder
 
 é possivel fazer uma sobrecarga de builders, mais informações anotadas em 
 maratona-java/src/construtores/domain/ObjetoGenerico
+
+=============================
+
+é possivel chamar um construtor dentro de outro construtor utilizando o termo 'this()' (referencia ao build do objeto e parametros dentro
+do paranteses pra overload
+
+=============================
+
+Quando se cria um objeto:
+// 0º Quando há um bloco de inicialização estática, ele é a primeira coisa a ser executada
+1º Alocado espaço em memória
+2º Cada atributo de classe é criado e inicializado com valores default (int = 0, Str = "")
+3º Bloco de inicialização
+4º Construtor
+
+=============================
+
+Norma para variáveis
+
+Modificador estático + Modificador de acesso + Tipagem + nome da variavel = valor
+   (static/"")           (public/private)    (int, double)
+
+é possivel ter mais de um bloco de inicialização estático, que serão executados em ordem de leitura
